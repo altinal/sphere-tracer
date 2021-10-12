@@ -38,9 +38,10 @@ The sphere tracer can run in 4 different modes:
    - obj: perform object-vectorization optimizations
    - mixed: perform both ray and object vectorization
    - auto: automatically use most promising optimization technique
+   
 See [project report](07_report.pdf) for more information on the optimization methods.
 
-To run the sphere-tracer on a scene *test_scenes/scene.json*, run:
+To run the sphere tracer on a scene *test_scenes/scene.json*, run:
 
 ```
 ./spheretrace -s scene -m [ray|obj|mixed|auto]
@@ -48,7 +49,7 @@ To run the sphere-tracer on a scene *test_scenes/scene.json*, run:
 
 ## Tests
 In addition to the normal sphere trace application, it's also possible to evaluate the sphere tracer
-on provided test scenes. For that, add all your test cases inside the test_scenes directory and add reference solutions inside reference/
+on provided test scenes. For that, add all your test cases inside the `test_scenes/` directory and add reference solutions inside `reference/`
 
 To run all tests: 
 
@@ -61,3 +62,5 @@ It's also possible to evaluate on a subset of scenes, try
 ```
 ./test -s scene1,scene2,scene3 -m [ray|obj|mixed|auto]
 ```
+
+The rendered scenes can be found in `out/
