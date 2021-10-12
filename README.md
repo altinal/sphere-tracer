@@ -9,6 +9,7 @@ This is our submission for the course project in the Advanced Systems Lab at ETH
 
 The sphere tracer supports:
 - Shadows
+- Rotations
 - Specular & mirror reflections
 - Anti-aliasing
 - Multiple light sources
