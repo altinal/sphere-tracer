@@ -63,4 +63,4 @@ It's also possible to evaluate on a subset of scenes, try
 ./test -s scene1,scene2,scene3 -m [ray|obj|mixed|auto]
 ```
 
-The rendered scenes can be found in `out/
+The rendered scenes can be found in `out/`
