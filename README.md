@@ -1,5 +1,7 @@
 # Sphere Tracer
 
+![Performance Plots](performance_plots/speedup_overview.png)
+
 C implementation of a sphere tracer optimized for maximal single-core performance.
 See the [project report](07_report.pdf) for detailed information and results.
 
@@ -16,7 +18,7 @@ The sphere tracer supports:
    - Torus
    - Box-frame
    - Plane
-
+   
 # Building
 
 `make spheretrace`
