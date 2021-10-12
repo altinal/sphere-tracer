@@ -1,6 +1,6 @@
 # Sphere Tracer
 
-Implementation of a sphere tracer optimized for maximal single-core performance.
+C implementation of a sphere tracer optimized for maximal single-core performance.
 See the [project report](07_report.pdf) for detailed information and results.
 
 This is our submission for the course project in the Advanced Systems Lab at ETH Zurich.
